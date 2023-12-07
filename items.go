@@ -10,6 +10,11 @@ const (
 	Purple Rarity = "Purple"
 )
 
+type RarityType struct {
+	Rarity     Rarity
+	Percentage float64
+}
+
 /*
 Yellow  0.25575
 Red     0.63939
