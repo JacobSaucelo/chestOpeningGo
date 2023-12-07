@@ -25,6 +25,10 @@ var wearRatingType = []wearRating{
 	},
 }
 
+type Chest struct {
+	items []item
+}
+
 type item struct {
 	name       string
 	rarity     string
@@ -40,4 +44,8 @@ type wearRating struct {
 
 func main() {
 	fmt.Println("initial commit")
+}
+
+func (c *Chest) NewChest() {
+
 }
