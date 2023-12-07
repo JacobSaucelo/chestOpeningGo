@@ -15,6 +15,11 @@ type RarityType struct {
 	Percentage float64
 }
 
+type Hat struct {
+	Name   string
+	Rarity Rarity
+}
+
 /*
 Yellow  0.25575
 Red     0.63939
